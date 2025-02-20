@@ -1,8 +1,40 @@
+
 .under-construction {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  min-height: 31.25rem;
+  min-height: 30rem;
   padding: 4rem 2rem 0;
-  text-align: center;
+  text-align: center;}
+h2 {
+  font-weight:900;
+}
+.bgimg {
+background-image: url('../../../../src/img/restaurant.jpg');
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+background-color: white;
+background-blend-mode: luminosity;
+position: relative;
+min-height:80vh;
+color: black;
+font-weight:900;
+font-family: "Courier New", Courier, monospace;
+font-size: 28px;
+}
+
+.bgimg h2 {
+font-size:4rem;
+}
+.middle {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+hr {
+margin: auto;
+width: 40%;
 }
