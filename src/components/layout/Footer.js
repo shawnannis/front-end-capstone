@@ -12,7 +12,7 @@ import pages from "../../utils/pages";
 
 const contacts = [
   { icon: faLocationDot, info: "89 Ditka Blvd, Chicago, IL 60611" },
-  { icon: faPhone, info: "(555) 555-1939" },
+  { icon: faPhone, info: "(555) 449-7839" },
   { icon: faEnvelope, info: "service@littlelemon.com" },
 ];
 

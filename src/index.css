@@ -111,3 +111,7 @@ main > section {
   border-color: #495E57;
   color: #FFFFFF;
 }
+
+.divider {
+  padding:20px 0;
+}

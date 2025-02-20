@@ -4,6 +4,7 @@ import './index.css';
 import { fetchAPI, submitAPI } from '../../../utils/fakeAPI';
 import pages from '../../../utils/pages';
 import BookingForm from './BookingForm';
+import divider from '../Home/assets/divider.png';
 
 const updateTimes = (availableTimes, date) => {
   const response = fetchAPI(new Date(date));
@@ -26,14 +27,18 @@ const Bookings = () => {
   }; 
 
   return (
+    <>
+    <div className="page-header"><h2>Table Reservation</h2>
+      <img src={divider} alt="divider" className="divider" /></div>
     <div className="bookings">
-      <h2>Table reservation</h2>
+      
       <BookingForm 
         availableTimes={availableTimes} 
         dispatchOnDateChange={dispatchOnDateChange} 
         submitData={submitData} 
       />
     </div>
+    </>
   );
 };
 

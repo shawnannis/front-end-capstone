@@ -1,26 +1,26 @@
-/* body {
-  background-image: url('../Home/assets/porridge.jpg');
-  background-position: center;
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-color: #d3d3d3;
-    background-blend-mode:soft-light;
-    z-index:50;
-} */
-.reserved {
+/* .reserved {
 background-image: url("./assets/silverware.png");
   background-position: center;
-    background-size:140vh;
+    background-size:80vh;
     background-repeat: no-repeat;
     background-color: rgb(255, 255, 255, 0.8);
     background-blend-mode:normal;
     z-index:999;
-}
-.bookings h2 {
-  padding: 1.875rem 0 1.875rem 0;
+} */
+.page-header {
+  padding: 2.5rem 2rem;
   background-color: #495E57;
   color: #FFFFFF;
   text-align: center;
+}
+.page-header h2 {
+  padding-bottom:0;
+  font-size:3rem;
+}
+.page-header img {
+  padding-top:6px;
+  text-align:center;
+  max-width: 500px;
 }
 
 .bookings form {
@@ -58,14 +58,14 @@ background-image: url("./assets/silverware.png");
   vertical-align: center;
   background-image: url("./assets/silverware.png");
   background-position: center;
-    background-size:140vh;
+    background-size:90vh;
     background-repeat: no-repeat;
     background-color: rgb(255, 255, 255, 0.8);
     background-blend-mode:hue;
 }
 
 .confirmation {
-  padding-top:10px;
+  padding-top:60px;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -75,5 +75,6 @@ background-image: url("./assets/silverware.png");
 }
 
 .dinner {
-  max-width:400px;
+  max-width:320px;
 }
+
