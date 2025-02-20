@@ -1,0 +1,86 @@
+.hero {
+  padding-top: 4rem;
+  background-color: #495E57;
+  background-image:url("./assets/hero.jpg");
+  background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#6e6e6e;
+    background-blend-mode:multiply;
+    
+}
+
+.hero .container {
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem;
+  margin-bottom: 10rem;
+  padding-bottom:4rem;
+  align-items: center;
+}
+
+.hero-information {
+  grid-column: 1;
+  font-size:20px;
+  /* background-color:rgba(73, 94, 87, 0.6);
+  padding:40px;
+  border-radius: 1rem; */
+}
+
+.hero-information h1 {
+  color: #F4CE14;
+  font-size:6em;
+  line-height: .6;
+}
+
+.hero-information h2 {
+  color: #FFFFFF;
+  font-size:4em;
+  line-height: 1;
+}
+
+.hero-information p {
+  margin-top: 1.5rem;
+  color: #FFFFFF;
+  vertical-align: middle;
+  align-self:center;
+}
+
+.hero-information .button-primary {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.hero-information .button-primary:hover, 
+.hero-information .button-primary:focus {
+  border-color: #F4CE14;
+}
+
+.hero-image {
+  grid-column: 2;
+  width: 75%;
+  justify-self: center;
+  align-self:center;
+  margin-top:-30px;
+  vertical-align: middle;
+  border-radius: 0.4rem;
+  box-shadow: 24px 18px 0 #F4CE14;
+}
+
+/*-- Media queries ------------------------------------------------------*/
+
+@media (max-width: 792px) {
+.hero .container {
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+}
+
+.hero-information {
+  grid-row: 1;
+}
+
+.hero-image {
+  grid-column: 1;
+  grid-row: 2;
+}
+}
