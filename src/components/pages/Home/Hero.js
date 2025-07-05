@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import restaurantFoodImage from './assets/restaurant-food-2.jpg';
 import littleLemon from './assets/little-lemon.png'
 import './Hero.css';
 import pages from '../../../utils/pages';

@@ -1,0 +1,94 @@
+
+.bgimg {
+background-image: url('../Home/assets/restaurant.jpg');
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+background-color: white;
+background-blend-mode: luminosity;
+position: relative;
+min-height:80vh;
+color: black;
+font-weight:900;
+font-family: "Courier New", Courier, monospace;
+font-size: 24px;
+padding:100px;
+}
+
+
+
+.our-menu {
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem;
+  padding:10px;
+  max-width:800px;
+}
+
+.menu-sheet {
+  background-color:rgba(255, 255, 255, 0.75);
+  width:fit-content;
+  height:fit-content;
+  padding:40px;
+  border-radius:20px;
+}
+
+.our-menu-description {
+  grid-column: 1;
+}
+
+.our-menu-description h1 {
+  color: #F4CE14;
+}
+
+.our-menu-description p {
+  padding-top: 1.5rem;
+}
+
+.our-menu-chefs {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.thank-you {
+  border:2px solid black;
+  padding:20px;
+  border-radius: 1rem;
+}
+
+.author {
+  padding-top:30px;
+}
+
+/*-- Media queries ------------------------------------------------------*/
+
+@media (max-width: 915px) {
+.our-menu {
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+}
+
+.our-menu-chefs {
+  grid-column: 1;
+  flex-direction: row;
+}
+
+.our-menu-chefs img {
+  max-width: 50%;
+}
+}
+
+@media (max-width: 715px) {
+.our-menu {
+  grid-template-rows: repeat(3, auto);
+}
+
+.our-menu-chefs {
+  flex-direction: column;
+}
+
+.our-menu-chefs img {
+  max-width: 100%;
+}
+}

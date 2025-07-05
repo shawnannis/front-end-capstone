@@ -7,7 +7,7 @@ const UnderConstruction = () => {
     <div class="bgimg">
   <div class="middle">
   <FontAwesomeIcon icon={faPersonDigging} size="7x" color='black' />
-  <h2>Page under construction</h2>
+  <h2>Coming Soon!</h2>
   </div>
 </div>
   );

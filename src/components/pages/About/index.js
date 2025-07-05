@@ -1,10 +1,10 @@
-import restaurantFood from './assets/restaurant-food-2.jpg'
-import './OurStory.css';
+import restaurantFood from '../Home/assets/restaurant-food-2.jpg'
+import './index.css';
 
-const OurStory = () => {
+const AboutUs = () => {
   return (
-    <section className="container grid our-story">
-      <div className="our-story-description">
+    <section className="container grid about-us">
+      <div className="about-us-description">
         <h1>Little Lemon</h1>
         <h2>Chicago</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
@@ -24,7 +24,7 @@ const OurStory = () => {
           voluptatem sequi nesciunt.</p>
           <h3 className="author">--   Charlie Hughes (Owner, Little Lemon)</h3> 
       </div>
-      <div className="our-story-chefs">
+      <div className="about-us-chefs">
         <img src={restaurantFood} alt="Little Lemon" />
         {/* <img src={chefsMarioAndAdrianBImage} alt="Chefs Mario and Adrian" /> */}
       </div>
@@ -32,4 +32,4 @@ const OurStory = () => {
   );
 };
 
-export default OurStory;
+export default AboutUs;

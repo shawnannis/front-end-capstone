@@ -10,7 +10,7 @@ h2 {
   font-weight:900;
 }
 .bgimg {
-background-image: url('../../../../src/img/restaurant.jpg');
+background-image: url('../Home/assets/restaurant.jpg');
 background-position: center;
 background-size: cover;
 background-attachment: fixed;

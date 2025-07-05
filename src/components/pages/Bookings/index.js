@@ -1,7 +1,7 @@
 import { useReducer } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './index.css';
-import { fetchAPI, submitAPI } from '../../../utils/fakeAPI';
+import { fetchAPI, submitAPI } from '../../../utils/lemonAPI';
 import pages from '../../../utils/pages';
 import BookingForm from './BookingForm';
 import divider from '../Home/assets/divider.png';
